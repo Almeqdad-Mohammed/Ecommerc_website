@@ -1,0 +1,382 @@
+/*Start Main Rulez*/
+body {
+  background: #f4f4f4;
+  font-size: 16px
+}
+.Asterik {
+  font-size: 25px;
+  position: absolute;
+  top: 3px;
+  right: 30px;
+  color: #da3434
+
+}
+label {
+  color: #3498db
+}
+.custome-message {
+  padding: 10px;
+  margin: 10px auto;
+  background-color: #FFF;
+  border-left: 3px solid #0a78f9;
+}
+.Asteriks {
+  color: #F00;
+  font-size: 40px
+}
+/*End Main Rulez*/
+
+/*Start login Form*/
+
+
+}
+
+h1 {
+  font-size: 55px;
+  margin: 20px 0;
+  font-weight: bold;
+  color: #0a78f9
+}
+.show-pass {
+  position: absolute;
+  top: 10px;
+  right: -30px
+
+}
+/*End Login Form*/
+/* Start Bootstrap  Edits Navbar*/
+.navbar {
+  border-radius: 0;
+  z-index: 9999
+}
+.navbar-brand {
+  font-size: 1em;
+}
+.nav > li > a  {
+  padding: 15px 12px;
+  font-size: 18px
+}
+.pull {
+  position: relative;
+  right: 30px;
+}
+.ProfileImage img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px
+}
+.dropdown-menu {
+    position: absolute;
+    top: 110%;
+    left: 35px;
+    min-width: 7rem;
+    background-color: #0a78f9;
+    color: #f4f4f4;
+    border: none;
+    padding: 0;
+    font-size: 18px;
+  }
+  .dropdown-item {
+    color: #f4f4f4
+  }
+  .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #fff;
+  }
+  .nav-link >a:focus,
+  .nav-link>a:hover {
+    background-color: #0a78f9;
+  }
+  .form-control {
+    position: relative;
+  }
+/*End  Bootstrap Edits*/
+/* Start Login Page*/
+.login-page form {
+  max-width: 430px;
+  margin: auto;
+}
+.login-page form {
+  min-width: 430px;
+  margin: auto;
+}
+
+.login-page [data-class="signin"].selected {
+  color: #0a78f9
+}
+.login-page [data-class="signup"].selected {
+  color: #5cb85c;
+}
+.login-page  {
+  color: #080;
+  margin-top: 100px;
+}
+.form-group {
+  position: relative;
+}
+
+ .login input {
+   margin-bottom: 10px;
+ }
+.login .form-control,
+.signup .form-control {
+  background:#EFEFEF
+}
+h1 {
+  font-size: 55px;
+  margin: 20px 0;
+  font-weight: bold;
+  color: #0a78f9
+}
+h1 span {
+  font-size: 55px;
+  margin: 20px 0;
+  font-weight: bold;
+  color: #bebebe
+}
+
+.login-page span {
+  cursor: pointer;
+}
+.login-page .signup {
+  display: none
+}
+/* End Login page*/
+/* start Index page */
+/* End Index Page */
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+    background: rgba(0,0,0,0.5);
+}
+.bg-blue img {
+  position: relative;
+  top:-20px;
+  height: 100vh;
+  width: 100%;
+  z-
+}
+/* Start categories*/
+
+.item-box {
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.item-box .price-tag {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  padding: 2px ;
+  background-color: #0a78f9;
+  color: #ffff;
+  font-weight: bold
+}
+.item-box .not_approve {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  padding: 2px ;
+  background-color: crimson;
+  color: #ffff;
+  font-weight: bold
+}
+.item-box img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.item-box .caption{
+  background: #ffff;
+  height: 130px
+}
+.item-box .Date {
+  text-align: right;
+  font-size: 13px;
+  color: #AAA;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  right: 0
+}
+/* End Categories*/
+/* Start Profile Page */
+.Inform .block {
+  margin-top: 20px
+}
+.block .profileImage .fa {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  font-size: 200px
+}
+.block .profileImage  img   {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px
+}
+.block .profileImage span {
+  font-size: 40px;
+  position: relative;
+  bottom: ;
+  left: 10px;
+  color: #0a78f9;
+  font-weight: bold;
+}
+.block .card-header {
+  background-color: #287ee2;
+  color: #FFF;
+}
+.Inform ul {
+  padding: 0;
+  margin: 0;
+}
+.Inform ul li {
+  padding: 10px;
+}
+.Inform ul li span {
+  width: 150px;
+  display: inline-block;
+}
+.Inform ul li:nth-child(odd){
+  background-color: #bbdaff;
+}
+.Inform .btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #007bfe
+}
+.Inform .signup {
+  display: none;
+}
+/* End Profile Page */
+/* start Product Page */
+.product-box h3 {
+  padding: 5px;
+  margin: 0
+}
+.product-box ul p {
+  padding: 10px;
+  margin: 0
+}
+.product-box ul  p span {
+  display: inline-block;
+  width: 120px
+}
+.product-box ul li {
+  padding: 10px;
+}
+.product-box ul li span:nth-child(odd) {
+  background-color: #0a78f9;
+  color: #fff
+}
+.product-box ul li span {
+  width: 120px;
+  display: inline-block;
+}
+.product-box .tags-item a {
+  display: inline-block;
+  background: #e2e2e2;
+  padding: 2px 10px;
+  border-radius: 5px;
+  color: #666;
+  margin-right: 5px;
+}
+.Add-comment {
+  margin-left: 200px;
+}
+.Add-comment h3 {
+  padding:
+}
+.Add-comment textarea {
+  outline: none;
+  border: none;
+  border-left: 2px solid #0a78f9;
+  border-top-right-radius: 5px;
+}
+/* End Product Page */
+/*  Start Custom Style */
+.custom-hr {
+  border: 2px solid #CCC
+}
+/* End Custome Style */
+/* Start Index */
+.bg-blue {
+  background-color: #fff;
+  /* background: url('../../Layout/Images/shoping.png'); */
+  background-size: cover;
+  background-attachment: fixed;
+  height: calc(100vh - 56px);
+  display: flex;
+  /* transform: scale(1,2); */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.bg-blue .overlay {
+  width: 800px;
+  height: 300px;
+  display: flex;
+}
+.overlay .title {
+  width: 400px;
+  background: linear-gradient(rgba(0, 0, 0, -0.9) , rgba(0, 123, 255));
+  color: #000;
+  text-align: center;
+  margin-right: 60px;
+  transform: rotate(50deg);
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px
+}
+.overlay .text {
+  width: 400px;
+  background: linear-gradient(rgba(0, 0, 0, -0.9) , rgba(0, 123, 255));
+  color: #fff;
+  margin-right: -20px;
+  transform: rotate(-50deg);
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px
+}
+.overlay .heading {
+  position: absolute;
+  margin-left: 95px;
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  z-index: 11;
+  border-bottom: 2px solid #007bfe;
+
+}
+.overlay .heading .head1 {
+  color: #007bfe;
+}
+.overlay .wave2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.overlay .wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.header {
+  color: #0a78f9;
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.header span {
+  display: block;
+  height: 3px;
+  width: 150px;
+  background: #007bfe;
+
+  margin: auto;
+}
+/* End index */
